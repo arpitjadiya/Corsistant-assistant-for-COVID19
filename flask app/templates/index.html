@@ -219,12 +219,12 @@
 
   </div>
   <p>International News</p>
-  {%for i in range(0, 5)%} 
-  <button type="button" class="collapsible">titles[i]</button>
+  {%for i in range(0, 2)%} 
+  <button type="button" class="collapsible">{{titles[i]}}</button>
   <div class="content">
-    <p>news[i]</p>
+    <p>{{news[i]}}</p>
   </div>
-  
+  {% endfor %}
 
 
 
